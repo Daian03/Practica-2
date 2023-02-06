@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<!--Página Principal-->
+
+<html>
+    <head> <!--Encabezado-->
+        <title>Donuts Shop</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Página Principal del sitio Donuts Shop"/>
+        <meta name="keywords" content="Adidas, Puma, Nike, Html, Css"/>
+        <link href="css/EstilosDS.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body> <!--Cuerpo de la página-->
+        <header class="header">
+            <nav class="nav">
+                <a class="nav-link logo" href="index.html">Donuts Shop</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item-is"><a class="nav-link nav-menu-link" href="inicioSesion.html">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <header class="header-dona">
+            <img src="imagenes/dona-logo.png" alt="" width="80"/>
+        </header>
+        <aside class="aside">
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="nuestrosProductos.html">Nuestros Productos</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="horarios.html">Horarios</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="delivery.html">Delivery</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="ubicanos.html">Ubícanos</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="sugerencias.html">Sugerencias</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="unete.html">Únete a nosotros</a></li>
+            </ul>
+        </aside>
+
+        <section class="contenido">
+            <header>
+                <h2 id="titulo" style="text-align: center">Ayúdanos a mejorar</h2>
+            </header>
+            <br/>
+            <article>
+                <header>
+                    <h3 style="font-size: 20px; color:deeppink"><b>En Donuts Shop estamos comprometidos a mejorar cada día.
+                            Por eso si tienes una sugerencia la puedes colocar acá
+                    </h3>
+                    </b>
+                </header>
+                <form action="/cliente/sugerencia" method="post">
+                    <fieldset>
+                        <label>Sugerencias<label/>
+                            <textarea name="Sugerencia" rows="6" cols="100">
+                            </textarea>
+                    </fieldset>
+                    
+                    <input type="submit" value="Enviar" />
+                    
+                </form>
+            </article>
+        </section>
+
+        <footer class="pie">Donuts Shop &COPY;</footer>
+
+    </body>
+</html>
